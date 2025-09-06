@@ -47,3 +47,7 @@ Before running the last command, hold the BOOTSEL button of the Raspberry Pi Pic
 
 * [pico ws2812 deepwiki](https://deepwiki.com/raspberrypi/pico-examples/3.1-ws2812-led-control)
 
+* [pico PIO and DMA for ws2812](https://mcuoneclipse.com/2023/04/02/rp2040-with-pio-and-dma-to-address-ws2812b-leds/)
+
+* [RP2040 blink platformIO](https://github.com/axpaul/YD-RP2040-Blink)
+

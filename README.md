@@ -26,6 +26,6 @@ $ export PICO_TOOLCHAIN_PATH="$HOME/io/tools/gnu-arm/gcc-arm-none-eabi-14.3.rel1
 ```
 $ mkdir build && cd build
 $ cmake .. && make
-$ cp hello.uf2 /Volumes/RPI-RP2
+$ cp hello-pico.uf2 /Volumes/RPI-RP2
 ```
 

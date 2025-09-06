@@ -45,3 +45,5 @@ Before running the last command, hold the BOOTSEL button of the Raspberry Pi Pic
 
 * [RP2040-FreeRTOS](https://github.com/smittytone/RP2040-FreeRTOS)
 
+* [pico ws2812 deepwiki](https://deepwiki.com/raspberrypi/pico-examples/3.1-ws2812-led-control)
+

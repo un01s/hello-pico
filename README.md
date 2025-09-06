@@ -43,6 +43,12 @@ $ git checkout -b ws2812
 
 There is an example playing [ws2812](https://github.com/raspberrypi/pico-examples) with PIO of RP2040.
 
+```
+$ git add .
+$ git commit -m 'pico-ws2812'
+$ git push origin ws2812
+```
+
 ## ref
 
 * [Developing in C on RP2040: macOS](https://wellys.com/posts/rp2040_c_macos/)

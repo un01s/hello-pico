@@ -4,7 +4,7 @@ set up a c/c++ project for RP2040
 
 ## SDK and ARM toolchain
 
-* PICO SDK
+* [PICO SDK repo](https://github.com/raspberrypi/pico-sdk)
 
 ```
 $ git clone https://github.com/raspberrypi/pico-sdk

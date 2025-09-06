@@ -29,3 +29,7 @@ $ cmake .. && make
 $ cp hello-pico.uf2 /Volumes/RPI-RP2
 ```
 
+## ref
+
+* [Developing in C on RP2040: macOS](https://wellys.com/posts/rp2040_c_macos/)
+

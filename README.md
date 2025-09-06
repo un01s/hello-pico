@@ -21,7 +21,7 @@ Download from [ARM GNU toolchains](https://developer.arm.com/downloads/-/arm-gnu
 $ export PICO_TOOLCHAIN_PATH="$HOME/io/tools/gnu-arm/gcc-arm-none-eabi-14.3.rel1/bin"
 ```
 
-## build
+## build and load
 
 ```
 $ mkdir build && cd build
@@ -29,7 +29,15 @@ $ cmake .. && make
 $ cp hello-pico.uf2 /Volumes/RPI-RP2
 ```
 
+* Attention:
+
+Before running the last command, hold the BOOTSEL button of the Raspberry Pi Pico board before connecting it to the USB port. By doing so, the pico board enters the bootloader mode.
+
 ## ref
 
 * [Developing in C on RP2040: macOS](https://wellys.com/posts/rp2040_c_macos/)
+
+* [RP2040-CLI](https://github.com/FarmBoy522/RP2040-CLI)
+
+* [RPi doc](https://www.raspberrypi.com/documentation/microcontrollers/c_sdk.html)
 

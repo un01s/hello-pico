@@ -33,6 +33,16 @@ $ cp hello-pico.uf2 /Volumes/RPI-RP2
 
 Before running the last command, hold the BOOTSEL button of the Raspberry Pi Pico board before connecting it to the USB port. By doing so, the pico board enters the bootloader mode.
 
+## ws2812
+
+* create a branch and switch to it
+
+```
+$ git checkout -b ws2812
+```
+
+There is an example playing [ws2812](https://github.com/raspberrypi/pico-examples) with PIO of RP2040.
+
 ## ref
 
 * [Developing in C on RP2040: macOS](https://wellys.com/posts/rp2040_c_macos/)

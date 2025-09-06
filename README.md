@@ -41,3 +41,7 @@ Before running the last command, hold the BOOTSEL button of the Raspberry Pi Pic
 
 * [RPi doc](https://www.raspberrypi.com/documentation/microcontrollers/c_sdk.html)
 
+* [Deepblue](https://deepbluembedded.com/raspberry-pi-pico-w-sdk-c-programming-rp2040/)
+
+* [RP2040-FreeRTOS](https://github.com/smittytone/RP2040-FreeRTOS)
+

@@ -18,7 +18,7 @@ $ export PICO_SDK_PATH="$HOME/io/tools/pico-sdk"
 Download from [ARM GNU toolchains](https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads)
 
 ```
-$ export PICO_TOOLCHAIN_PATH="$HOME/io/tools/gnu-arm/gcc-arm-none-eabi-14.3.rel1"
+$ export PICO_TOOLCHAIN_PATH="$HOME/io/tools/gnu-arm/gcc-arm-none-eabi-14.3.rel1/bin"
 ```
 
 ## build

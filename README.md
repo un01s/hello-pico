@@ -2,7 +2,7 @@
 
 set up a c/c++ project for RP2040
 
-## SDK and ARM toolchain
+## 00. get SDK and ARM toolchain
 
 * [PICO SDK repo](https://github.com/raspberrypi/pico-sdk)
 
@@ -21,7 +21,7 @@ Download from [ARM GNU toolchains](https://developer.arm.com/downloads/-/arm-gnu
 $ export PICO_TOOLCHAIN_PATH="$HOME/io/tools/gnu-arm/gcc-arm-none-eabi-14.3.rel1/bin"
 ```
 
-## build and load
+## 01. build and load
 
 ```
 $ mkdir build && cd build

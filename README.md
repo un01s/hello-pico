@@ -2,7 +2,7 @@
 
 set up a c/c++ project for RP2040
 
-## SDK and ARM toolchain
+## 00. get SDK and ARM toolchain
 
 * [PICO SDK repo](https://github.com/raspberrypi/pico-sdk)
 
@@ -21,7 +21,7 @@ Download from [ARM GNU toolchains](https://developer.arm.com/downloads/-/arm-gnu
 $ export PICO_TOOLCHAIN_PATH="$HOME/io/tools/gnu-arm/gcc-arm-none-eabi-14.3.rel1/bin"
 ```
 
-## build and load
+## 01. build and load
 
 ```
 $ mkdir build && cd build
@@ -61,3 +61,8 @@ $ git push origin ws2812
 
 * [RP2040-FreeRTOS](https://github.com/smittytone/RP2040-FreeRTOS)
 
+* [pico ws2812 deepwiki](https://deepwiki.com/raspberrypi/pico-examples/3.1-ws2812-led-control)
+
+* [pico PIO and DMA for ws2812](https://mcuoneclipse.com/2023/04/02/rp2040-with-pio-and-dma-to-address-ws2812b-leds/)
+
+* [RP2040 blink platformIO](https://github.com/axpaul/YD-RP2040-Blink)

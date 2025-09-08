@@ -29,9 +29,7 @@ $ cmake .. && make
 $ cp hello-pico.uf2 /Volumes/RPI-RP2
 ```
 
-* Attention:
-
-Before running the last command, hold the BOOTSEL button of the Raspberry Pi Pico board before connecting it to the USB port. By doing so, the pico board enters the bootloader mode.
+* $${\color{red}Attention}$$: Before running the last command, hold the BOOTSEL button of the Raspberry Pi Pico board before connecting it to the USB port. By doing so, the pico board enters the bootloader mode.
 
 ## ws2812
 

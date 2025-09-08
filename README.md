@@ -55,6 +55,8 @@ $ git push origin ws2812
 
 * [RP2040-CLI](https://github.com/FarmBoy522/RP2040-CLI)
 
+* [RPi pico examples](https://github.com/raspberrypi/pico-examples)
+
 * [RPi doc](https://www.raspberrypi.com/documentation/microcontrollers/c_sdk.html)
 
 * [Deepblue](https://deepbluembedded.com/raspberry-pi-pico-w-sdk-c-programming-rp2040/)

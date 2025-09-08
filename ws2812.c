@@ -101,7 +101,6 @@ void pattern_rainbow(PIO pio, uint sm, uint len, uint t) {
   int rgbValues[] = {255, 0, 0};
   int upIndex = 0, downIndex = 1;
  
-  for (uint i = 0; i < 100; i++) {
   for (uint j = 0; j < len; j++) {
     rgbValues[upIndex] += 1;
     rgbValues[downIndex] -= 1;
@@ -125,7 +124,6 @@ void pattern_rainbow(PIO pio, uint sm, uint len, uint t) {
     }
 
     put_pixel(pio, sm, urgb_u32((uint8_t)(255-rgbValues[0]), (uint8_t)(255-rgbValues[1]), (uint8_t)(255-rgbValues[2])));
-  }
   }
 }
 

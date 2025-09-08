@@ -127,6 +127,29 @@ void pattern_rainbow(PIO pio, uint sm, uint len, uint t) {
   }
 }
 
+int level = 8;
+
+void pattern_fade(PIO pio, uint sm, uint len, uint t) {
+    uint shift = 4;
+
+    uint max = 16; // let's not draw too much current!
+    max <<= shift;
+
+    uint slow_t = t / 32;
+    slow_t = level;
+    slow_t %= max;
+
+    static int error = 0;
+    slow_t += error;
+    error = slow_t & ((1u << shift) - 1);
+    slow_t >>= shift;
+    slow_t *= 0x010101;
+
+    for (uint i = 0; i < len; ++i) {
+        put_pixel(pio, sm, slow_t);
+    }
+}
+
 typedef void (*pattern)(PIO pio, uint sm, uint len, uint t);
 const struct {
   pattern pat;
@@ -136,7 +159,7 @@ const struct {
   {pattern_random,  "Random data"},
   {pattern_sparkle, "Sparkles"},
   {pattern_greys,   "Greys"},
-  {pattern_rainbow, "Rainbow"},
+  {pattern_fade, "Fade"},
 };
 
 int main() {

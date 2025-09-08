@@ -65,4 +65,6 @@ $ git push origin ws2812
 
 * [pico PIO and DMA for ws2812](https://mcuoneclipse.com/2023/04/02/rp2040-with-pio-and-dma-to-address-ws2812b-leds/)
 
+* [mcueclipse](https://github.com/ErichStyger/mcuoneclipse)
+
 * [RP2040 blink platformIO](https://github.com/axpaul/YD-RP2040-Blink)

@@ -155,6 +155,7 @@ const struct {
   pattern pat;
   const char *name;
 } pattern_table[] = {
+  {pattern_rainbow, "rainbow"},
   {pattern_snakes,  "Snakes!"},
   {pattern_random,  "Random data"},
   {pattern_sparkle, "Sparkles"},

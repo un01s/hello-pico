@@ -26,12 +26,15 @@ $ export PICO_TOOLCHAIN_PATH="$HOME/io/tools/gnu-arm/gcc-arm-none-eabi-14.3.rel1
 ```
 $ mkdir build && cd build
 $ cmake .. && make
-$ cp hello-pico.uf2 /Volumes/RPI-RP2
+$ cp hello-pico.uf2 /Volumes/RPI-RP2/hello-pico.uf2
+$ screen /dev/cu.usbmodem1101
+Hello, World!
+Hello, World!
 ```
 
 * Attention:
 
-Before running the last command, hold the BOOTSEL button of the Raspberry Pi Pico board before connecting it to the USB port. By doing so, the pico board enters the bootloader mode.
+Before running the command copy, hold the BOOTSEL button of the Raspberry Pi Pico board before connecting it to the USB port. By doing so, the pico board enters the bootloader mode.
 
 ## ref
 
